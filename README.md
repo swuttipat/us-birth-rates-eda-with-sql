@@ -1,4 +1,4 @@
-<a href="https://www.kaggle.com/code/wuttipats/us-birth-rates-eda-with-sql?scriptVersionId=131566136" target="_blank"><img align="left" alt="Kaggle" title="Open in Kaggle" src="https://kaggle.com/static/images/open-in-kaggle.svg"></a>
+<a href="https://www.kaggle.com/code/wuttipats/us-birth-rates-eda-with-sql?scriptVersionId=131569636" target="_blank"><img align="left" alt="Kaggle" title="Open in Kaggle" src="https://kaggle.com/static/images/open-in-kaggle.svg"></a>
 
 # US birth rates EDA with SQL 👶
 
@@ -9,7 +9,7 @@
 * **Status:** <span style="background-color: green; color: white; font-weight: bold">Completed</span>
 
 
-![newborn1200x500.png](attachment:0a0496ca-3747-4545-b42a-378f36a5685e.png)
+![newborn1200x500.png](https://export-download.canva.com/oTei4/DAFkXvoTei4/2/0/0001-5733870933.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAJHKNGJLC2J7OGJ6Q%2F20230529%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20230529T165322Z&X-Amz-Expires=55212&X-Amz-Signature=b7297875d87eb995f83684e45b2a24fc2092725e0a3ffc4474556934f5d4b189&X-Amz-SignedHeaders=host&response-content-disposition=attachment%3B%20filename%2A%3DUTF-8%27%27newborn1200x500.png&response-expires=Tue%2C%2030%20May%202023%2008%3A13%3A34%20GMT)
 > photo by canva
 
 # Notebook Odjective
@@ -72,10 +72,8 @@ plt.style.use('ggplot')
 
 ```python
 df = pd.read_csv('/kaggle/input/temporary-us-births/us_births_2016_2021.csv')
-df.head()
+display(df.head())
 ```
-
-
 
 
 <div>
@@ -171,7 +169,6 @@ df.head()
   </tbody>
 </table>
 </div>
-
 
 
 # Step 3: Create a SQLite Database
@@ -451,7 +448,7 @@ pd.DataFrame({'original': original.education_level_of_mother, 'tranformed': tran
 
 
 
-![pagebreak.png](attachment:caa5b9a0-1166-4aa5-8bc3-3055048f5ca5.png)
+![](https://www.pngitem.com/pimgs/b/508-5089961_text-decoration-png.png)
 
 # Step 6: Data Cleaning & Data Validation
 - Check *table info*
@@ -1136,7 +1133,7 @@ pd.read_sql(query, conn)
 | 7 | average_age_of_mother_years |      REAL |          None | Range 23.1 to 35.5           |
 | 8 |      average_birth_weight_g |      REAL |          None | Range 2451.9 to 3585.7       |
 
-![pagebreak.png](attachment:9d9094b9-0acf-4d31-a488-fe0bbbab520b.png)
+![](https://www.pngitem.com/pimgs/b/508-5089961_text-decoration-png.png)
 
 # Step 7: Start Exploratory Data Analysis
 
@@ -1890,7 +1887,7 @@ plt.show()
 > - We can observe a trend indicating that mothers with higher education are more likely to give birth at an older age compared to those with lower education levels. 
 > - However,it is interesting to note that mothers with the lowest academic level (8th Grade or Less) tend to have a slower rate of giving birth compared to some higher education ranks.
 
-![pagebreak.png](attachment:382a6ebb-8c54-4dda-bede-e8d1c52d562c.png)
+![](https://www.pngitem.com/pimgs/b/508-5089961_text-decoration-png.png)
 
 # Step 8: Summary & Insights
 
